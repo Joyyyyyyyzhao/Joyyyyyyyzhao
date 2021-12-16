@@ -127,14 +127,14 @@ ul.nav li:last-child a {
     border-bottom-right-radius: 30px;
 }
 
-.a123{
+#a123{
     overflow: hidden;
     position: relative;
     transform: scale(1);
     transition: transform 1s ease 0s;
 }
 
-.a123:hover{
+#a123:hover{
     transform: scale(1.05);
 }
 
