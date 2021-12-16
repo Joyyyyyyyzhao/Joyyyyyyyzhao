@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<title>Home</title>
+		<meta contect="this website is about cooking"name="discription">
+		<meta contect="home page"name="keyword">
+		<style>
+			/* 设置初始值和修改ul及li的默认样式 */
+		*  { padding: 0 auto;margin: 0 auto;box-sizing: content-box;}
+		ul { padding-inline-start: 0px; }
+		li { list-style: none; }
+
+		/* 图片轮播块 */
+
+		.rotation-container { width: 100%; position: relative; margin: 0 auto; }
+
+		.rotation_ul,.rotation-item {padding-bottom: 40%;}
+
+		.rotation-item { 
+			position: absolute;
+			width: 100%;
+			background-size: 100%;
+			animation: fade 20s linear;
+			animation-iteration-count: infinite;
+		}
+
+		/* 设置背景图片 */
+		.rotation-item1 { background-image: url(../img/ban1.jpg); }
+		.rotation-item2 { background-image: url(../img/ban2.jpg); }
+		.rotation-item3 { background-image: url(../img/ban3.jpg); }
+		.rotation-item4 { background-image: url(../img/ban4.jpg); }
+		.rotation-item5 { background-image: url(../img/ban3.jpg); }
+
+		/* 设置动画 */
+		@keyframes fade {
+			0% {opacity: 0;}
+			5% {opacity: 1;}
+			20% {opacity: 1;}
+			25% {opacity: 0;}
+			100% {opacity: 0;}
+		}
+
+		.rotation-item  { opacity: 0; }
+		.rotation-item1 { animation-delay: -1s; }
+		.rotation-item2 { animation-delay: 3s; }
+		.rotation-item3 { animation-delay: 7s; }
+		.rotation-item4 { animation-delay: 11s; }
+		.rotation-item5 { animation-delay: 15s; }
+
+		/* 轮播焦点块 */
+		.focus-container { position: absolute;bottom: 2%;z-index: 7;left: 80%;margin-left: -45px; }
+
+		.focus-container li { width: 8px;height: 8px;border-radius: 50%;float: left;margin-right: 10px;margin-bottom: 10px;background: #fff;
+		}
+
+		.focus-item {
+		width: 100%;
+			height: 100%;
+			position: relative;
+			opacity: 0;
+			background: #51B1D9;
+			border-radius: inherit;
+			animation-duration: 20s;
+			animation-timing-function: linear;
+			animation-name: fade;
+			animation-iteration-count: infinite;
+		}
+
+		.focus-item1 { animation-delay: -1s; }
+		.focus-item2 { animation-delay: 3s; }
+		.focus-item3 { animation-delay: 7s; }
+		.focus-item4 { animation-delay: 11s; }
+		.focus-item5 { animation-delay: 15s; }
+
+		.picture img {height: 150px;width: 100%;}
+		</style>
+	</head>
+	<body style="background-color: black;">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<div class="rotation-container">
+			<!-- 轮播器 -->
+			<div>
+				<ul class="rotation_ul">
+					<li class="rotation-item rotation-item1"><img src="https://www.nme.com/wp-content/uploads/2021/06/redvelvet-psycho-2019.jpg" width="400px" height="300px"></li>
+					<li class="rotation-item rotation-item2"><img src="hhttps://lh3.googleusercontent.com/-sk_H0RlqJdGdPTaydp8TdAPGD72SZ_HXXml4m921O-T01EhzuQxrtSnCoUi_IkLqyG7QiK7X0T_qlJfzwGt9t83MOtUdiyuoQ=w1200-h630-rj-pp-nu-e365" width="400px" height="300px"></li>
+					<li class="rotation-item rotation-item3"><img src="https://mb.com.ph/wp-content/uploads/2021/02/RedVelvet2.jpg" width="400px" height="300px"></li>
+					<li class="rotation-item rotation-item4"><img src="https://www.allkpop.com/upload/2021/07/content/081217/1625761028-untitled-1.jpg" width="400px" height="300px"></li>
+					<li class="rotation-item rotation-item5"><img src="https://www.nme.com/wp-content/uploads/2021/06/redvelvet-psycho-2019.jpg" width="400px" height="300px"></li>
+				</ul>
+			</div>
+			
+			<!-- 轮播焦点 -->
+			<div class="focus-container">
+				<ul class="focus_ul">
+					<li><div class="focus-item focus-item1"></div></li>
+					<li><div class="focus-item focus-item2"></div></li>
+					<li><div class="focus-item focus-item3"></div></li>
+					<li><div class="focus-item focus-item4"></div></li>
+					<li><div class="focus-item focus-item5"></div></li>
+				</ul>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

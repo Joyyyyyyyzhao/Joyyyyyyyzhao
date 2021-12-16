@@ -1,0 +1,226 @@
+body{
+	background-color:black;
+	background-image: url(1.png);
+	background-attachment: fixed;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 280px;
+}
+	
+div{    
+    margin: auto;
+    width: 1000px;
+    height: 160px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+}
+
+.3pw{
+	text-align: left;
+	margin-top: 20px;
+	border: 1px solid #000;
+	padding: 10px;
+	height: 150px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+#column2{
+	text-align: center;
+	color: whitesmoke;
+	width: 50%;
+	margin-left: 705px;
+	margin-bottom: 450px;
+}
+ 
+
+
+.3pics{
+	width:33.3%;
+	margin: auto;
+	padding: 10px;
+}
+
+
+a.nav{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #184126;
+    color: #184126;
+    font-family: Alfa Slab One;
+    text-shadow: 1.5px 1.5px 1px #3A5757;
+    font-size: 31px;
+    text-decoration: none;
+    margin: auto;
+}
+ 
+ 
+ a.bottom{
+ 	color: #B6BC9F;
+ 	font-family: Alfa Slab One;
+ 	text-shadow: 1.5px 1.5px 1px #3A5757;
+ 	font-size: 25px;
+    text-decoration: none;
+    margin: auto;
+    line-height: 45px;
+ }
+
+.for{
+    color: white;
+    line-height: 40px;
+    font-size: 25px;
+
+}
+
+a:hover, a:active {
+    color: #568154;
+}
+
+ 
+/*NAV BAR*/
+a.nav:link{
+    background-color: #3A5A2B;
+    color: #184126;
+    display: inline;
+    padding: 50px;
+    text-align:center;
+    width: 1200px;
+    font-family: Alfa Slab One;
+    font-size: 31px;
+    text-decoration: none;
+    margin: auto
+}
+
+a.nav:visited{
+	text-decoration: none;
+}
+ 
+a.nav:hover{
+    color: #B6BC9F;
+    background-color:#6C9668;
+}
+ 
+li.nav{
+    float: left;
+    list-style-type: none;
+}
+ 
+ul.nav{
+    display: center;
+    margin:auto;
+    font-family: Alfa Slab One;
+}
+/*NAV BAR*/
+
+ul.nav li:first-child a {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+ul.nav li:last-child a {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.a123{
+	overflow: hidden;
+	position: relative;
+	transform: scale(1);
+	transition: transform 1s ease 0s;
+}
+
+.a123:hover{
+	transform: scale(1.05);
+}
+
+.move{
+    margin-left: -10px;
+    margin-bottom: 500px;
+    width: 900px;
+    height: 550px;
+}
+
+.aa img{
+ position: absolute;
+ width: 1000px;
+ height:650px;
+}
+.ab img{
+    border-radius: 60px;
+ position: absolute;
+ width: 1000px;
+ height:650px;
+}
+.ac img{
+    border-radius: 60px;
+ position: absolute;
+ width: 1000px;
+ height:650px;
+}
+.ac {
+ animation-name: cantoons;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+.ab {
+ animation-name: cantoons2;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+.aa {
+ animation-name: cantoons1;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes cantoons{
+ 0% {
+  opacity: 1;
+ }
+ 35% {
+  opacity: 0;
+ }
+ 70% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+ 
+}
+@keyframes cantoons2{
+ 0% {
+  opacity: 0;
+ }
+ 35% {
+  opacity: 1;
+ }
+ 70% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 0;
+
+ }
+}
+@keyframes cantoons1{
+ 0% {
+  opacity: 0;
+ }
+ 35% {
+  opacity: 0;
+ }
+ 70% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+
+ }
+}
+
