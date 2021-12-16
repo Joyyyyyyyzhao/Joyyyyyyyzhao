@@ -1,12 +1,12 @@
 body{
-	background-color:black;
-	background-image: url(1.png);
-	background-attachment: fixed;
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: 280px;
+    background-color:black;
+    background-image: url(remove.png);
+    background-attachment: fixed;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 280px;
 }
-	
+    
 div{    
     margin: auto;
     width: 1000px;
@@ -19,39 +19,39 @@ div{
 }
 
 .3pw{
-	text-align: left;
-	margin-top: 20px;
-	border: 1px solid #000;
-	padding: 10px;
-	height: 150px;
+    text-align: left;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    height: 150px;
 }
 
 .column{
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 #column2{
-	text-align: center;
-	color: whitesmoke;
-	width: 50%;
-	margin-left: 705px;
-	margin-bottom: 450px;
+    text-align: center;
+    color: whitesmoke;
+    width: 50%;
+    margin-left: 705px;
+    margin-bottom: 450px;
 }
  
 
 
 .3pics{
-	width:33.3%;
-	margin: auto;
-	padding: 10px;
+    width:33.3%;
+    margin: auto;
+    padding: 10px;
 }
 
 
 a.nav{
-	border-style: solid;
-	border-width: 2px;
-	border-color: #184126;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #184126;
     color: #184126;
     font-family: Alfa Slab One;
     text-shadow: 1.5px 1.5px 1px #3A5757;
@@ -62,10 +62,10 @@ a.nav{
  
  
  a.bottom{
- 	color: #B6BC9F;
- 	font-family: Alfa Slab One;
- 	text-shadow: 1.5px 1.5px 1px #3A5757;
- 	font-size: 25px;
+    color: #B6BC9F;
+    font-family: Alfa Slab One;
+    text-shadow: 1.5px 1.5px 1px #3A5757;
+    font-size: 25px;
     text-decoration: none;
     margin: auto;
     line-height: 45px;
@@ -98,7 +98,7 @@ a.nav:link{
 }
 
 a.nav:visited{
-	text-decoration: none;
+    text-decoration: none;
 }
  
 a.nav:hover{
@@ -128,14 +128,14 @@ ul.nav li:last-child a {
 }
 
 .a123{
-	overflow: hidden;
-	position: relative;
-	transform: scale(1);
-	transition: transform 1s ease 0s;
+    overflow: hidden;
+    position: relative;
+    transform: scale(1);
+    transition: transform 1s ease 0s;
 }
 
 .a123:hover{
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .move{
@@ -222,5 +222,95 @@ ul.nav li:last-child a {
   opacity: 0;
 
  }
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #20410D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 10px outset #1D3519;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #598947;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color:  #20410D;
+}
+
+
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+
+.container {
+    color: white;
+    padding: 16px;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+
+    padding-top: 60px;
+}
+
+
+.modal-content {
+
+    margin: 5% auto 15% auto; 
+
+    width: 80%; 
+}
+
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
 }
 
