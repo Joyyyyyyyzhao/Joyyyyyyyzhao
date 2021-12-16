@@ -173,7 +173,7 @@ ul.nav li:last-child a {
     transition: transform 1s ease 0s;
 }
 
-.a1234:hover{
+#a1234:hover{
     transform: scale(1.05);
 }
 
