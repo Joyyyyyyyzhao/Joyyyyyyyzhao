@@ -7,8 +7,8 @@ function join(){
 		alert('welcome!');
 		var A=parseInt(prompt('Can you cook？(type in number 3:yes 4:no)'))
 		if (A == "3"){
-			console.log('You can improve yourself in this website');
-			alert('You can improve yourself in this website');
+			console.log('You can improve yourself in this website!');
+			alert('You can improve yourself in this website!');
 		}
 		if (A == "4"){
 			console.log('We have a lot of simple recipes, you can try from the simple ones');
