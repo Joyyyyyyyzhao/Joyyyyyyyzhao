@@ -1,0 +1,329 @@
+body{
+	background-color:black;
+	background-image: url(remove.png);
+	background-attachment: fixed;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 280px;
+}
+	
+div{    
+    margin: auto;
+    width: 1000px;
+    height: 160px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+}
+
+.a1{
+	overflow: hidden;
+	position: relative;
+}
+
+.3pw{
+	text-align: left;
+	margin-top: 20px;
+	border: 1px solid #000;
+	padding: 10px;
+	height: 150px;
+}
+
+
+.3pics{
+	width:33.3%;
+	margin: auto;
+	padding: 10px;
+}
+
+
+a.nav{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #184126;
+    color: #184126;
+    font-family: Alfa Slab One;
+    text-shadow: 1.5px 1.5px 1px #3A5757;
+    font-size: 31px;
+    text-decoration: none;
+    margin: auto;
+}
+ 
+ 
+ .bottom{
+ 	color: #B6BC9F;
+ 	font-family: Alfa Slab One;
+ 	text-shadow: 1.5px 2px 1px #3A5757;
+ 	font-size: 25px;
+    text-decoration: none;
+    margin: auto;
+    line-height: 45px;
+    list-style-type: none;
+ }
+
+
+a:hover, a:active {
+    color: #568154;
+}
+
+ 
+/*NAV BAR*/
+a.nav:link{
+    background-color: #3A5A2B;
+    color: #184126;
+    display: inline;
+    padding: 50px;
+    text-align:center;
+    width: 1200px;
+    font-family: Alfa Slab One;
+    font-size: 31px;
+    text-decoration: none;
+    margin: auto
+}
+
+a.nav:visited{
+	text-decoration: none;
+}
+ 
+a.nav:hover{
+    color: #B6BC9F;
+    background-color:#6C9668;
+}
+ 
+li.nav{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+ 
+ul.nav{
+    display: center;
+    margin:auto;
+    font-family: Alfa Slab One;
+    text-decoration: none;
+}
+/*NAV BAR*/
+
+ul.nav li:first-child a {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+ul.nav li:last-child a {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#a123{
+	overflow: hidden;
+	position: relative;
+	transform: scale(1);
+	transition: transform 1s ease 0s;
+}
+
+#a123:hover{
+	transform: scale(1.05);
+}
+	
+.turkey{
+	margin-bottom: 300px;
+	margin-top: 100px;
+}
+
+
+.turkey1{
+	margin-top: -200px;
+	margin-bottom: 30px;
+	margin-left: 850px;
+	font-size: 20px;
+}
+/*这是火鸡第一步*/
+
+.turkey2{
+	margin-top: -460px;
+	margin-bottom: 400px;
+	margin-left: 850px;
+}
+
+.stuffing1{
+	margin-bottom: 150px;
+	margin-top: 300px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.gravy{
+	margin-bottom: 300px;
+	margin-top: 100px;
+	margin-left: 300px;
+}
+
+
+.gravy1{
+	margin-top: -250px;
+	margin-bottom: 30px;
+	margin-left: 850px;
+	font-size: 20px;
+}
+#a1234{
+    overflow: hidden;
+    position: relative;
+    transform: scale(1);
+    transition: transform 1s ease 0s;
+}
+
+.a1234:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+.ground{
+	margin-bottom: 300px;
+	margin-top: 100px;
+}
+
+
+.ground1{
+	margin-top: -200px;
+	margin-bottom: 30px;
+	margin-left: 850px;
+	font-size: 20px;
+}
+/*这是火鸡第一步*/
+
+.Brown2{
+	margin-top: -400px;
+	margin-bottom: 400px;
+	margin-left: 850px;
+}
+
+.Brown1{
+	margin-bottom: 150px;
+	margin-top: 300px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.SAN{
+	margin-bottom: 300px;
+	margin-top: 100px;
+	margin-left: 300px;
+}
+
+
+.SAN1{
+	margin-top: -250px;
+	margin-bottom: 30px;
+	margin-left: 850px;
+	font-size: 20px;
+}
+
+
+
+
+
+.sidenav {
+    height: 30%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #598947;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+button {
+    background-color: #20410D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 10px outset #1D3519;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #598947;
+}
+
+#contact {
+	border: 5px inset solid;
+    visibility: hidden;
+    min-width: 250px;
+    margin-left:-500px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#contact.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
